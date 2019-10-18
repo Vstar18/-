@@ -8,22 +8,15 @@ tomarrow is anthoer day
 ### 前端工程化
 ### webpack
 
-	### 	####五大基础概念
+	####五大基础概念
+		-入口
+		-出口
+		-loader
+		-plugin
+		-mode
 
-​		-入口
-
-​			
-
-​		-出口
-
-​		-loader
-
-​		-plugin
-
-​		-mode
-
-### *NodeJS
-### *PWA
-### *Service Work
-### *Http
-### *算法
+### NodeJS
+### PWA
+### Service Work
+### Http
+### 算法
