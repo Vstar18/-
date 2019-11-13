@@ -81,11 +81,37 @@ tomarrow is anthoer day
         - PWA
     - 工具链
         - [webpack](https://github.com/Vstar18/FE-knowledge-webpack)
-    - 持续集成
+            - webpack原理分析
+            - 常用配置
+            - 优化相关
+    - 持续集成（CI&CD）
     - 搭建系统
     - 架构与基础库
-        - NodeJS
-        - 
+        - React
+            - React Fiber原理
+            - React 生命周期原理
+            - React Jsx转换原理
+            - React 生命周期原理 
+            - React setState原理
+            - React Hooks原理
+            - Redux 原理
+            - Mobx 原理
+        - Vue
+        - TS 
     - 网络通信
         - Http
-    - [算法](https://github.com/Vstar18/FE-knowledge-algorithm)
+    - [算法&数据结构](https://github.com/Vstar18/FE-knowledge-algorithm)
+        - 数据结构
+            - 栈和队列
+            - 链表
+            - 指针和对象
+            - 有根树
+            - 二叉树
+            - 红黑树
+            - B树
+            - 二项堆
+            - 斐波那切堆
+        - 算法
+            - 动态规划
+            - 贪心算法
+            - 平摊分析
