@@ -97,6 +97,7 @@ tomarrow is anthoer day
             - Redux 原理
             - Mobx 原理
         - Vue
+            - [《Vue快跑》](https://github.com/Vstar18/Learn-Books/issues/18)
         - TS 
     - 网络通信
         - Http
