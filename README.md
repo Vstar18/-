@@ -11,39 +11,53 @@ tomarrow is anthoer day
       - 运行时
         - 数据结构
             - 类型
-                - 七种基本类型
-              - [string](https://github.com/Vstar18/FE-knowledge-JS/issues/5)
-              - number
-              - boolean
-              - null
-              - undefined
-              - object
+              - 七种基本类型
+                  - [string](https://github.com/Vstar18/FE-knowledge-JS/issues/5)
+                  - number
+                  - boolean
+                  - null
+                    - typeof null //object，这个是特殊情况，原因在于js底层，基本类型是用二进制表示的，前3位为0则解析为object
+                        而null全部为0
+                  - undefined
                   - object
-                  - [array](https://github.com/Vstar18/FE-knowledge-JS/issues/1)
-              - symbol
-          - 七种语言类型
-              -  List & Record
-              - Set
-              - Completion Record
-              - Reference
-              - Property Descriptor
-              - Lexical Environment & - Environment Record
-              - Data Block
-          - 关于七种基本类型的问题
-              - [为什么0.1+ 0.2 不等于0.3（number）](https://github.com/Vstar18/FE-knowledge-JS/issues/4)
-              - [[1,3,10].map(parseInt)输出什么（array&number）](https://github.com/Vstar18/FE-knowledge-JS/issues/2)
-              - [为什么一些编程规范要求用void（0）代替undefined（undefined)](https://github.com/Vstar18/FE-knowledge-JS/issues/3)
-              - 字符串有最大长度吗（string）
-               - 字符串有最大长度，但在开发中基本不会遇到这样的情况
-              - symbol是什么（symbol）
-              - 为什么给对象添加的方法可以用在基本类上（object）
-              - 实现继承的方式（object）
-              - 如何判断是否为数组类型，以及各种方式的优缺点（Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()）
-              - 深拷贝的实现（object&array）
-              - 冒泡排序(array)
-              - 拷贝数组，但不改变元数组(array)
-            - 实例
-                - 内置对象
+                    - 在js中万物皆对象的说法是错误的，基本类型有7种，而对象下面还有很多特殊子类型
+                      - object
+                      - [array](https://github.com/Vstar18/FE-knowledge-JS/issues/1)
+                      - 函数：js中的一等公民，可以调用的对象
+                      - 内置对象
+                        - 看起来很像基本类型，null&undefined没有内置对象，只有基本类型
+                        - Number
+                        - String
+                        - Boolean
+                        - Object
+                        - Array
+                        - Function
+                        - Regexp
+                        - Error
+                  - symbol
+              - 七种语言类型
+                  -  List & Record
+                  - Set
+                  - Completion Record
+                  - Reference
+                  - Property Descriptor
+                  - Lexical Environment & - Environment Record
+                  - Data Block
+              - 关于七种基本类型的问题
+                  - [为什么0.1+ 0.2 不等于0.3（number）](https://github.com/Vstar18/FE-knowledge-JS/issues/4)
+                  - [[1,3,10].map(parseInt)输出什么（array&number）](https://github.com/Vstar18/FE-knowledge-JS/issues/2)
+                  - [为什么一些编程规范要求用void（0）代替undefined（undefined)](https://github.com/Vstar18/FE-knowledge-JS/issues/3)
+                  - 字符串有最大长度吗（string）
+                   - 字符串有最大长度，但在开发中基本不会遇到这样的情况
+                  - symbol是什么（symbol）
+                  - 为什么给对象添加的方法可以用在基本类上（object）
+                  - 实现继承的方式（object）
+                  - 如何判断是否为数组类型，以及各种方式的优缺点（Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()）
+                  - 深拷贝的实现（object&array）
+                  - 冒泡排序(array)
+                  - 拷贝数组，但不改变元数组(array)
+                - 实例
+          - 内置对象
         - 算法
             - 模块和内存
             - 事件循环&微任务
