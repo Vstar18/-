@@ -1,145 +1,33 @@
-# 前端知识网
-tomarrow is anthoer day
-细节见成败
-
-- 基础
-    - [JS](https://github.com/Vstar18/FE-knowledge-JS)
-      - 文法
-        - 词法
-        - 语法
-      - 语义
-      - 运行时
-        - 数据结构
-            - 类型
-              - 七种基本类型
-                  - [string](https://github.com/Vstar18/FE-knowledge-JS/issues/5)
-                  - number
-                  - boolean
-                  - null
-                    - typeof null //object，这个是特殊情况，原因在于js底层，基本类型是用二进制表示的，前3位为0则解析为object
-                        而null全部为0
-                  - undefined
-                  - object
-                    - 在js中万物皆对象的说法是错误的，基本类型有7种，而对象下面还有很多特殊子类型
-                      - object
-                      - [array](https://github.com/Vstar18/FE-knowledge-JS/issues/1)
-                      - 函数：js中的一等公民，可以调用的对象
-                      - 内置对象
-                        - 看起来很像基本类型，null&undefined没有内置对象，只有基本类型
-                        - Number
-                        - String
-                        - Boolean
-                        - Object
-                        - Array
-                        - Function
-                        - Regexp
-                        - Error
-                  - symbol
-              - 七种语言类型
-                  -  List & Record
-                  - Set
-                  - Completion Record
-                  - Reference
-                  - Property Descriptor
-                  - Lexical Environment & - Environment Record
-                  - Data Block
-              - 关于七种基本类型的问题
-                  - [为什么0.1+ 0.2 不等于0.3（number）](https://github.com/Vstar18/FE-knowledge-JS/issues/4)
-                  - [[1,3,10].map(parseInt)输出什么（array&number）](https://github.com/Vstar18/FE-knowledge-JS/issues/2)
-                  - [为什么一些编程规范要求用void（0）代替undefined（undefined)](https://github.com/Vstar18/FE-knowledge-JS/issues/3)
-                  - 字符串有最大长度吗（string）
-                   - 字符串有最大长度，但在开发中基本不会遇到这样的情况
-                  - symbol是什么（symbol）
-                  - 为什么给对象添加的方法可以用在基本类上（object）
-                  - 实现继承的方式（object）
-                  - 如何判断是否为数组类型，以及各种方式的优缺点（Object.prototype.toString.call() 、 instanceof 以及 Array.isArray()）
-                  - 深拷贝的实现（object&array）
-                  - 冒泡排序(array)
-                  - 拷贝数组，但不改变元数组(array)
-                - 实例
-          - 内置对象
-        - 算法
-            - 模块和内存
-            - 事件循环&微任务
-            - 函数的执行
-            - 语句级的执行
-    - [HTML](https://github.com/Vstar18/FE-knowledge-HTML)
-        - 语言
-            - 实体
-            - 命名空间
-        - 元素
-            - 文档元信息
-            - 语义相关
-            - 链接
-            - 替换元素
-            - 表格表单
-            - 总集
-        - 补充标准
-    - [CSS](https://github.com/Vstar18/FE-knowledge-CSS)
-        - 语言
-            - @rule
-            - 选择器
-            - 单位
-        - 功能
-            - 布局
-                - 标准流
-                - 弹性布局
-            - 绘制
-                - 颜色和形状
-                - 文字相关
-            - 交互
-                - 动画
-                - 其他交互
-    - 浏览器原理及内置API
-        - 实现原理
-            - 解析
-            - 构建DOM树
-            - 计算CSS
-            - 渲染、合成&绘制
-        - API
-            - DOM
-            - CSSDOM
-            - 事件
-            - API总集合
- 
-- 进阶
-    - 性能优化
-        - Service Work
-        - PWA
-    - 工具链
-        - [webpack](https://github.com/Vstar18/FE-knowledge-webpack)
-            - webpack原理分析
-            - 常用配置
-            - 优化相关
-    - 持续集成（CI&CD）
-    - 搭建系统
-    - 架构与基础库
-        - React
-            - React Fiber原理
-            - React 生命周期原理
-            - React Jsx转换原理
-            - React 生命周期原理 
-            - React setState原理
-            - React Hooks原理
-            - Redux 原理
-            - Mobx 原理
-        - Vue
-            - [《Vue快跑》](https://github.com/Vstar18/Learn-Books/issues/18)
-        - TS 
-    - 网络通信
-        - Http
-    - [算法&数据结构](https://github.com/Vstar18/FE-knowledge-algorithm)
-        - 数据结构
-            - 栈和队列
-            - 链表
-            - 指针和对象
-            - 有根树
-            - 二叉树
-            - 红黑树
-            - B树
-            - 二项堆
-            - 斐波那切堆
-        - 算法
-            - 动态规划
-            - 贪心算法
-            - 平摊分析
+1. 谈谈MVVM
+1. 响应式数据原理
+1. vue种如何检测数组的变化
+1. 为何vue选择异步渲染
+1. nextTick原理实现
+1. vue中computed特点
+1. watch中的deep：true是如何实现的
+1. vue组件的生命周期
+1. ajax请求放在哪个生命周期中
+1. 何时需要使用destoryed
+1. vue中模版编译原理
+1. vue中v-if/v-show的区别
+1. 为什么v-for和v-if不能连用
+1. 用vnode来描述一个DOM结构
+1. diff算法的时间复杂度
+1. 简述vue中diff算法
+1. v-for中为什么要用key
+1. 描述组件渲染和更新的过程
+1. 组件中data为什么是一个函数
+1. v-model中的实现原理及如何自定义v-model
+1. vue中v-html会导致哪些问题
+1. vue父子组件生命周期调用顺序
+1. 组件通信
+1. 相同逻辑如何抽离
+1. 为什么要使用异步组件
+1. 什么是作用域插槽
+1. 对keep-alive的理解
+1. vue中常见的性能优化
+1. vue3.0你知道有哪些改进
+1. 实现hash路由和history路由
+1. vue中导航守卫
+1. action和mutation的区别
+1. 简述vuex工作原理
