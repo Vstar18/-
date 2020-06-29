@@ -24,7 +24,7 @@
 1. 相同逻辑如何抽离
 1. 为什么要使用异步组件
 1. 什么是作用域插槽
-1. 对keep-alive的理解
+1. [对keep-alive的理解](https://github.com/Vstar18/Vue-interview/issues/7)
 1. vue中常见的性能优化
 1. vue3.0你知道有哪些改进
 1. 实现hash路由和history路由
